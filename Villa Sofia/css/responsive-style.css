@@ -1,0 +1,84 @@
+@media (max-width: 1199px) {
+
+    /* header */
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        font-size: .875rem;
+    }
+}
+
+@media (max-width:991px) {
+
+    /* custom css */
+    section {
+        padding: 0.875rem 0;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: .9375rem;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: .9375rem;
+    }
+
+    /* banner wrapper */
+    .banner_wrapper {
+        height: 25.625rem;
+    }
+
+    /* About */
+    .about_wrapper {
+        padding-top: 7.375rem;
+    }
+
+    /* room */
+    .room-item .room-content {
+        padding: 2rem 1.875rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        line-height: 2.1875rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: .8125rem;
+        line-height: 1.5rem;
+    }
+
+    /* blog */
+    .blog-content {
+        margin: 0;
+    }
+
+    /* footer */
+    .footer_wrapper>div {
+        padding: 0 1.875rem;
+    }
+}
