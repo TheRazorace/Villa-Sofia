@@ -63,6 +63,22 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/villasofiaparga/" target="_blank"><img src="img/facebook.png" width="30" height="30" alt="facebook"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/villa.sofia.parga/" target="_blank"><img src="img/instagram.png" width="30" height="30" alt="instagram"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -128,7 +144,7 @@
                     <!-- <a href="#" class="main-btn mt-4">Explore</a> -->
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
-                    <div class="fotorama" data-nav="thumbs" data-transition="crossfade" data-loop="true" data-autoplay="5500" data-swipe="true">
+                    <div class="fotorama" data-nav="thumbs" data-transition="crossfade" data-thumbwidth="100px" data-loop="true" data-autoplay="5500" data-swipe="true" data-stopautoplayontouch="false">
                     <img src="img/about.jpg">
                     <img src="img/about2.jpg">
                     <img src="img/about3.jpg">
@@ -142,6 +158,453 @@
         </div>
     </section>
     <!-- About section exit -->
+
+    <!-- Rooms section -->
+    <section id="apartments" class="rooms_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h3>Our Apartments</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>Select to find out more</h5>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-3 mb-3 mb-lg-0">
+                    <a href="#ap_reference">
+                    <div class="room-item" role="button" onclick="a1_click()" id="a1"> 
+                        <img src="./img/Apartment1.jpg" class="img-fluid"> 
+                        <div class="text-white mb-lg-5 centered" id="a1c"><mark>Apartment 1</mark></div>
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Apartment 1</h5>
+                                <p class="text-white">Our apartment for one couple or families with young children (maximum 2 adults and 2 children)</p>
+                            </div>
+                        </div> 
+                    </div> 
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3 mb-lg-0">
+                    <a href="#ap_reference">
+                    <div class="room-item" role="button" onclick="a2_click()" id="a2">
+                        <img src="./img/Apartment2.jpg" class="img-fluid">
+                        <div class="text-white mb-lg-5 centered" id="a2c"><mark>Apartment 2</mark></div>
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Apartment 2</h5>
+                                <p class="text-white">Our apartment for two couples or families with older children (maximum 4 persons)</p>
+                            </div>
+                        </div>
+                    </div> 
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3 mb-lg-0">
+                    <a href="#ap_reference">
+                    <div class="room-item" role="button" onclick="a3_click()" id="a3">
+                        <img src="./img/Apartment3.jpg" class="img-fluid">
+                        <div class="text-white mb-lg-5 centered" id="a3c"><mark>Apartment 3</mark></div>
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Apartment 3</h5>
+                                <p class="text-white">Our apartment for families with 4-5 persons or a group of friends</p>
+                            </div>
+                        </div>
+                    </div> 
+                    </a>
+                </div>
+                <div class="col-md-3 mb-3 mb-lg-0">
+                    <a href="#ap_reference">
+                    <div class="room-item" role="button" onclick="a4_click()" id="a4">
+                        <img src="./img/Outdoors.jpg" class="img-fluid">
+                        <div class="text-white mb-lg-5 centered" id="a4c"><mark>Outdoor Area</mark></div>
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Outdoor Area</h5>
+                                <p class="text-white">The outdoor space of our Villa</p>
+                            </div>
+                        </div>
+                    </div> 
+                    </a>
+                </div>
+            </div>
+        
+
+        </div>
+    </section>
+    <section id="ap_reference"></section>
+
+    <div class="container-fluid">
+
+        <div id="a1-content" style="display:none">
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h3>Apartment 1</h3>
+                    <hr>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <p>This apartment is very spacious.
+                        One large bedrooms offer enough space to sleep.
+                        The fully equipped kitchen includes a dining and sitting area and couch are.
+                        The couch can be a sofa bed.
+                        Of course, The apartment also has a bathroom with shower.
+                        From the bedroom you have access to the terrace and the garden with citrus trees and many flowers.</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h5>Contains:</h5>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; One bedroom</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; One kitchen / living room</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Fully equipped kitchen</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Dining and sitting area</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Couch area</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WC / shower</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; TV</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Air conditioner</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Terrace with garden furniture</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WiFi Internet</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-3 lg-0"></div>
+                <div class="col-sm-6 d-flex justify-content-around">
+                    <div class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-width="500" data-height="400" data-transition="crossfade" data-loop="true" data-autoplay="5500" data-swipe="true">
+                        <img src="img/a2.jpg">
+                        <img src="img/apartment1.jpg">
+                        <img src="img/about3.jpg">
+                        <img src="img/a1.jpg">
+                        <img src="img/a1design.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 lg-0"></div>
+            </div>
+
+
+        </div>
+
+        <div id="a2-content" style="display:none">
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h3>Apartment 2</h3>
+                    <hr>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <p>This apartment is very spacious.
+                        Two large bedrooms offer enough space to sleep.
+                        The fully equipped kitchen includes a dining and sitting area.
+                        Of course, The apartment also has a bathroom with shower.
+                        From the bedrooms you have access to the terrace and the garden with citrus trees and many flowers.</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h5>Contains:</h5>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Two bedrooms</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Fully equipped kitchen</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Dining and sitting area</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WC / shower</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; TV</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Air conditioner</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Terrace with garden furniture</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WiFi Internet</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-3 lg-0"></div>
+                <div class="col-sm-6 d-flex justify-content-around">
+                    <div class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-width="500" data-height="400" data-transition="crossfade" data-loop="true" data-autoplay="5500" data-swipe="true">
+                        <img src="img/Apartment2.jpg">
+                        <img src="img/a3.jpg">
+                        <img src="img/about3.jpg">
+                        <img src="img/a1.jpg">
+                        <img src="img/a2.jpg">
+                        <img src="img/a2design.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 lg-0"></div>
+            </div>
+
+
+        </div>
+
+        <div id="a3-content" style="display:none">
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h3>Apartment 3</h3>
+                    <hr>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <p>Lux apartment 82 square meters is ready to accomodate a family of 4-5 persons or a  group of friends.
+                        The living room, the kitchen and the dining room are surrounded from a big terrace with comfortable furnitures, spectacular view of the Ionian sea, the lemon-orange trees, the olive groves which reach until the beach and the green-blue water of Lichnos bay.
+                        The two large and comfortable bedrooms with high quality furnitures offer you a relaxed sleep. The fitted kitchen is fully equipped with all the necessary devices. Enjoy your meals in the "unique" terrace with fabulous view of the sea and the colorful, fragnance garden.
+                        Moreover, the apartment provides you with full HD television, audio system with many cd's , air condition and a small library. Of course, you can use all the common places of the ground floor of the Villa, the barbecue, the outdoor shower and the garden furnitures. 
+                        The ground plan and the photoshooting, even it is not proffesional, we are sure that they will help you decide to choose this apartment for your unforgettable summer holidays.</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h5>Contains:</h5>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Two bedrooms</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Fully equipped kitchen</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Dining and sitting area</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WC / shower</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; TV</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Audio system</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Air conditioner</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Fireplace</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Balcony with furniture</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WiFi Internet</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-3 lg-0"></div>
+                <div class="col-sm-6 d-flex justify-content-around">
+                    <div class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-width="500" data-height="400" data-transition="crossfade" data-loop="true" data-autoplay="5500" data-swipe="true">
+                        <img src="img/a27.jpg">
+                        <img src="img/a4.jpg">
+                        <img src="img/a5.jpg">
+                        <img src="img/a6.jpg">
+                        <img src="img/a7.jpg">
+                        <img src="img/a8.jpg">
+                        <img src="img/a9.jpg">
+                        <img src="img/a10.jpg">
+                        <img src="img/a11.jpg">
+                        <img src="img/a12.jpg">
+                        <img src="img/a13.jpg">
+                        <img src="img/a14.jpg">
+                        <img src="img/a15.jpg">
+                        <img src="img/a16.jpg">
+                        <img src="img/a17.jpg">
+                        <img src="img/a18.jpg">
+                        <img src="img/a19.jpg">
+                        <img src="img/a20.jpg">
+                        <img src="img/a21.jpg">
+                        <img src="img/a22.jpg">
+                        <img src="img/a23.jpg">
+                        <img src="img/a24.jpg">
+                        <img src="img/a25.jpg">
+                        <img src="img/a26.jpg">
+                        <img src="img/a3design.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 lg-0"></div>
+            </div>
+
+
+        </div>
+
+        <div id="a4-content" style="display:none">
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h3>Outdoor Area</h3>
+                    <hr>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <p>Villa Sofia is a house with 3 Apartments. The Apartment on the upper
+                         floor is for those who require something special and are interested
+                          to be in a place like your house and not just in a small aparment. 
+                          In the lower part of the house you can rent the other 2 luxuriously
+                          constructed Apartments. Relax in the garden, make a barbecue evening 
+                          or take a refreshing shower. All this and much more is offered to you by us.</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-10 section-title text-left mb-8">
+                    <h5>Contains:</h5>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 lg-0"></div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; BBQ area</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Dining area</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Garden with trees and flowers</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; Outdoor Shower</p>
+                </div>
+                <div class="col-sm-2 section-title text-left mb-8">
+                    <p>&#183; WiFi Internet</p>
+                </div>
+                <div class="col-sm-1 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-3 lg-0"></div>
+                <div class="col-sm-6 d-flex justify-content-around">
+                    <div class="fotorama" data-nav="thumbs" data-thumbwidth="100px" data-width="500" data-height="400" data-transition="crossfade" data-loop="true" data-autoplay="5500" data-swipe="true">
+                        <img src="img/about2.jpg">
+                        <img src="img/o1.jpg">
+                        <img src="img/about.jpg">
+                        <img src="img/a21.jpg">
+                        <img src="img/Outdoors.jpg">
+                        <img src="img/o2.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 lg-0"></div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+
+     <!-- Rooms Section Exit -->
 
      <!-- Bootstrap 5 JS CDN Links -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
