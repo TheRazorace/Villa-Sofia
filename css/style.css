@@ -13,7 +13,7 @@
     --primary-color: #021832;
     --bg-color: #f4f4f4;
     --bg-white: #fff;
-    --bg-black: #000;
+    --bg-black: rgb(0, 0, 0);
 
     /* Text Style */
     --primary-font: 'Poppins', sans-serif;
@@ -357,6 +357,38 @@ p {
     height: 400px;
     width: 100%;
   }
+
+/* Footer */
+.footer_wrapper {
+    background-color: var(--secondary-text);
+}
+
+.footer_wrapper h5,
+.footer_wrapper h6 {
+    color: var(--text-white);
+    margin-bottom: 1.25rem;
+}
+
+.footer_wrapper ul li {
+    margin-bottom: .5rem;
+    list-style: none;
+}
+
+.footer_wrapper .contact-info li a{
+    color: var(--secondary-color)
+}
+
+.footer_wrapper .link-widget li a,
+.footer_wrapper p, .footer_wrapper a {
+    color: var(--text-white);
+    font-size: .875rem;
+    padding-left:1.5rem;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+
   
 
 

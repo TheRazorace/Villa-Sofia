@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Villa Sofia - Lichnos Parga</title>
 
     <!-- FAVICON -->
@@ -78,10 +77,10 @@
                         <li class="nav-item"></li>
                         <li class="nav-item"></li>
                         <li class="nav-item">
-                            <a href="https://www.facebook.com/villasofiaparga/" target="_blank"><img src="img/facebook.png" width="30" height="30" alt="facebook"></a>
+                            <a href="https://www.facebook.com/villasofiaparga/" target="_blank"><img src="img/facebook.png" width="25" height="25" alt="facebook"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.instagram.com/villa.sofia.parga/" target="_blank"><img src="img/instagram.png" width="30" height="30" alt="instagram"></a>
+                            <a href="https://www.instagram.com/villa.sofia.parga/" target="_blank"><img src="img/instagram.png" width="25" height="25" alt="instagram"></a>
                         </li>
                     </ul>
                 </div>
@@ -131,6 +130,7 @@
         </div>
         
     </section>
+    <br><br><br><br><br><br><br><br>
     <!-- Banner section exit -->
 
      <!-- About section -->
@@ -161,6 +161,7 @@
             </div>
         </div>
     </section>
+    <br><br><br><br><br><br><br><br>
     <!-- About section exit -->
 
     <!-- Rooms section -->
@@ -239,7 +240,8 @@
 
         </div>
     </section>
-    <section id="ap_reference"></section>
+
+    <section id="ap_reference">
 
     <div class="container-fluid">
 
@@ -605,8 +607,9 @@
         </div>
 
     </div>
+    </section>
 
-    <br><br><br><br>
+    <br><br><br><br><br><br><br><br>
 
      <!-- Rooms Section Exit -->
 
@@ -728,7 +731,7 @@
                     <img src="img/exc4.jpg" class="img-fluid" style="height:250px; width: 100%">
                 </div>
             </div>
-            <br><br><br><br>
+            <br><br><br><br><br><br><br><br>
 
         </div>
 
@@ -772,7 +775,7 @@
                      in direction Parga. From Athens follow the Highway Athens-Patras. Cross the bridge Rio-Antirrio continue to Mesolongi, Agrinio, Preveza and Parga</p>
                 </div>
             </div>
-            <br><br><br><br><br>
+            <br><br><br><br>
 
             <div class="row">
                 <div class="col-sm-3 lg-0"></div>
@@ -786,8 +789,136 @@
 
         </div>
      </section>
+     <br><br><br><br><br><br><br><br>
+     <!-- Travel Section Exit-->
 
-     <!-- travel Section Exit-->
+     <!-- Contact Section Start-->
+
+     <section id="contact" class="rooms_wrapper">
+
+        <div class="container">
+            <div class="row flex-lg-row flex-column ">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h3><span>Contact</span> us!</h3>
+                    <h5>Do you have any questions? Do not hesitate to contact us directly.</h5>
+                </div>
+            </div>
+
+            <br><br>
+
+            <form id="contact-form" class="form" method="post" action="contact-form.php"> 
+
+                <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-4 text-center text-lg-start">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name">                           
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-4 text-center text-lg-start">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your e-mail</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="E-mail">                           
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-4 text-center text-lg-start">
+                        <div class="md-form mb-0">
+                            <label for="phone" class="">Your phone number</label>
+                            <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone number">                           
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <div class="md-form mb-0">
+                            <label for="message" class="">Your message</label>
+                            <textarea type="text" id="message" name="message" class="form-control md-textarea" rows="5" placeholder="Message"></textarea>                       
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+            <br>
+
+            <div class="row flex-lg-row flex-column ">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <a class="btn main-btn" onclick="validateForm();">Send</a>
+                </div>
+            </div>
+            <div class="status"></div>
+
+
+        </div>
+
+
+     </section>
+     <br><br><br><br><br><br><br><br>
+
+     <!-- Contact Section Exit-->
+
+     <!-- Footer Section Start-->
+
+     <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-12 text-center text-lg-center">
+                    <h5> Villa Sofia Apartments</h5>
+                    <h6>Lichnos
+                        48060 Parga
+                        Greece</h6>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="row ">
+                <div class="col-lg-2"></div>
+                <div class="col-12 col-md-4 col-lg-3 section-title text-center">
+                    <p><img src="img/phone.png" style="width:26px;"> +30 26840 32471</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 section-title text-center">
+                    <p><img src="img/phone.png" style="width:26px;"> +30 26510 92414</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 section-title text-center">
+                    <p><img src="img/phone.png" style="width:26px;"> +30 69445 39694</p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 col-md-2 lg-0"></div>
+                <div class="col-sm-4 col-md-8 section-title text-center">
+                    <a href="mailto:john-das@hotmail.com"><img src="img/mail.png" style="width:26px;"> villa_sofia_parga@hotmail.com</a>
+                </div>
+                <div class="col-sm-4 col-md-2 lg-0"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-5 lg-0"></div>
+                <div class="col-sm-1 section-title text-center">
+                    <a href="https://www.facebook.com/villasofiaparga/" target="_blank"><img src="img/facebook.png" width="25" height="25" alt="facebook"></a>
+                </div>
+                <div class="col-sm-1 section-title text-center">
+                    <a href="https://www.instagram.com/villa.sofia.parga/" target="_blank"><img src="img/instagram.png" width="25" height="25" alt="instagram"></a>
+                </div>
+                <div class="col-sm-5 lg-0"></div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Footer section exit -->
 
      <!-- Bootstrap 5 JS CDN Links -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
