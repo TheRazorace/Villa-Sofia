@@ -193,20 +193,18 @@ function initMap() {
         'message': $('textarea[name=message]').val()
       };
 
-      $.ajax({
-        url: "contact-form.php",
-        type: "POST",
-        data: formData,
-        success: function (data, textStatus, jqXHR) {
-      
-          $('#status').text(data.message);
-          if (data.code) //If mail was sent successfully, reset the form.
-            $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-          $('#status').text(jqXHR);
-        }
-      });
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://formsubmit.co/john-das@hotmail.com");
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+          console.log(xhr.status);
+          console.log(xhr.responseText);
+        }};
+
+    xhr.send(formData);
       
   }
 
