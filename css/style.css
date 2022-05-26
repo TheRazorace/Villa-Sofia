@@ -19,7 +19,7 @@
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Oswald', sans-serif;
     --primary-text: #021832;
-    --secondary-text: #f1f525;
+    --secondary-text: rgb(205, 180, 0);
     --text-white: #fff;
     --text-black: #151515;
     --text-gray: #e4e4e4;
@@ -196,14 +196,14 @@ p {
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.35;
+    opacity: 0.25;
     z-index: 0;
 }
 
 .banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet {
     width: .9375rem;
     height: .9375rem;
-    background-color: #f1f525;
+    background-color: var(--secondary-text);
     border: .0625rem solid var(--bg-white);
 }
 
@@ -350,7 +350,7 @@ p {
 
   hr{
       padding:3px;
-      color: #f1f525;
+      color: var(--secondary-text);
   }
 
   #map {
