@@ -152,60 +152,14 @@ function initMap() {
     });
   }
   
-  window.initMap = initMap;
+window.initMap = initMap;
 
-  function validateForm() {
-    var name =  document.getElementById('name').value;
-    if (name == "") {
-        document.querySelector('.status').innerHTML = "Name cannot be empty";
-        return false;
-    }
-
-    var email =  document.getElementById('email').value;
-    if (email == "") {
-        document.querySelector('.status').innerHTML = "Email cannot be empty";
-        return false;
-    } else {
-        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(!re.test(email)){
-            document.querySelector('.status').innerHTML = "Email format invalid";
-            return false;
-        }
-    }
-
-    var phone =  document.getElementById('phone').value;
-    if (phone == "") {
-        document.querySelector('.status').innerHTML = "Phone cannot be empty";
-        return false;
-    }
-
-    var message =  document.getElementById('message').value;
-    if (message == "") {
-        document.querySelector('.status').innerHTML = "Message cannot be empty";
-        return false;
-    }
-    document.querySelector('.status').innerHTML = "Sending...";
-
-    formData = {
-        'name': $('input[name=name]').val(),
-        'email': $('input[name=email]').val(),
-        'phone': $('input[name=phone]').val(),
-        'message': $('textarea[name=message]').val()
-      };
-
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://formsubmit.co/john-das@hotmail.com");
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.setRequestHeader("Content-Type", "application/json");
-
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4) {
-          console.log(xhr.status);
-          console.log(xhr.responseText);
-        }};
-
-    xhr.send(formData);
-      
-  }
+let form_status = document.querySelector(".status");
+$('#contact-form').on('submit', function() {
+    $(this).each(function() {
+         this.reset();
+    });
+    form_status.innerHTML = "Your message was submitted!"
+});
 
   
