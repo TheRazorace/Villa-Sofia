@@ -16,8 +16,8 @@
     --bg-black: rgb(0, 0, 0);
 
     /* Text Style */
-    --primary-font: 'Poppins', sans-serif;
-    --secondary-font: 'Oswald', sans-serif;
+    --primary-font: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    --secondary-font: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;;
     --primary-text: #021832;
     --secondary-text: rgb(205, 180, 0);
     --text-white: #fff;
