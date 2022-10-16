@@ -104,7 +104,7 @@
                 <div class="swiper-slide" style="background-image: url(./img/title5.png);">
                     <div class="slide-caption text-center">
                         <div>
-                            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">ΚΑΛΩΣ ΗΡΘΑΤΕ ΣΤΗ VILLA SOFIA ΣΤΗ ΠΑΡΓΑ</h1>
+                            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">ΚΑΛΩΣ ΗΡΘΑΤΕ ΣΤΗ VILLA SOFIA ΣΤΗΝ ΠΑΡΓΑ</h1>
                             <p>Ψάχνετε για ένα ήσυχο μέρος για να περάσετε τις διακοπές σας? </p>
                         </div>
                     </div>
@@ -836,39 +836,42 @@
 
             <br><br>
 
-            <form id="contact-form" class="form" target="_blank" action="https://formsubmit.co/john-das@hotmail.com" method="POST"> 
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <label for="name" class="">Το όνομά σας</label>
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Όνομα" required>                           
+            <form target="_blank" action="https://formsubmit.co/georgekyriakis98@gmail.com" method="POST">
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Το όνομά σας</label>
+                                <input type="text" name="name" class="form-control" placeholder="Όνομα" required>                           
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br>
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <label for="email" class="">Το e-mail σας</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" required>                           
+                    <br>
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Το e-mail σας</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" required>                           
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br>
+                    <br>
 
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <label for="phone" class="">Το τηλέφωνό σας</label>
-                            <input type="text" id="phone" name="phone" class="form-control" placeholder="Τηλέφωνο" required>                           
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="phone" class="">Το τηελέφωνό σας</label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Τηλέφωνο" required>                           
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br>
+                    <br>
 
-                <div class="row flex-lg-row flex-column ">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="row flex-lg-row flex-column ">
                     <div class="col-lg-8 text-center text-lg-start">
                         <div class="md-form mb-0">
                             <label for="message" class="">Το μήνυμά σας</label>
@@ -876,19 +879,14 @@
                         </div>
                     </div>
                 </div>
-
+                </div>
                 <br>
-
                 <div class="row flex-lg-row flex-column ">
                     <div class="col-lg-8 text-center text-lg-start">
-                        <button class="btn main-btn" type="submit">Αποστολή</button>
+                        <button class="btn main-btn" type="submit" onclick="submit_click()">Αποστολή</button>
                     </div>
                 </div>
-                <div class="row flex-lg-row flex-column">
-                    <div class="col-lg-8 text-center text-lg-start status"></div>
-                </div>
-
-            </form>
+              </form>
             
 
 
