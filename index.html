@@ -840,9 +840,15 @@
             <form target="_blank" action="https://formsubmit.co/john-das@hotmail.com" method="POST">
                 <div class="form-group">
                   <div class="form-row">
-                    <div class="col">
-                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Το όνομά σας</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Όνομα" required>                           
+                            </div>
+                        </div>
                     </div>
+                    <br>
                     <div class="col">
                       <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                     </div>
