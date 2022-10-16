@@ -146,9 +146,6 @@ window.initMap = initMap;
 
 let form_status = document.querySelector(".status");
 $('#contact-form').on('submit', function() {
-    $(this).each(function() {
-         this.reset();
-    });
     form_status.innerHTML = "Your message was submitted!"
 });
 
