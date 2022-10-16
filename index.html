@@ -844,20 +844,48 @@
                         <div class="col-lg-4 text-center text-lg-start">
                             <div class="md-form mb-0">
                                 <label for="name" class="">Το όνομά σας</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Όνομα" required>                           
+                                <input type="text" name="name" class="form-control" placeholder="Όνομα" required>                           
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div class="col">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Το e-mail σας</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" required>                           
+                            </div>
+                        </div>
                     </div>
+                    <br>
+
+                    <div class="row flex-lg-row flex-column ">
+                        <div class="col-lg-4 text-center text-lg-start">
+                            <div class="md-form mb-0">
+                                <label for="phone" class="">Το τηλέφωνό σας</label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Τηλέφωνο" required>                           
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
                   </div>
                 </div>
                 <div class="form-group">
-                  <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                  <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <div class="md-form mb-0">
+                            <label for="message" class="">Το μήνυμά σας</label>
+                            <textarea type="text" id="message" name="message" class="form-control md-textarea" rows="5" placeholder="Μήνυμα" required></textarea>                       
+                        </div>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </div>
+                <div class="row flex-lg-row flex-column ">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <button class="btn main-btn" type="submit">Αποστολή</button>
+                    </div>
+                </div>
               </form>
 
             <div class="row flex-lg-row flex-column">
