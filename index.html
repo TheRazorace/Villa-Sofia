@@ -837,53 +837,22 @@
 
             <br><br>
 
-            <form id="contact-form" class="form" target="_blank" action="https://formsubmit.co/john-das@hotmail.com" method="POST"> 
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <input type="text" name="name" class="form-control" placeholder="Name" required>                           
-                        </div>
+            <form target="_blank" action="https://formsubmit.co/john-das@hotmail.com" method="POST">
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="col">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                     </div>
-                </div>
-                <br>
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>                           
-                        </div>
+                    <div class="col">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                     </div>
+                  </div>
                 </div>
-                <br>
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-4 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <input type="text" name="phone" class="form-control" placeholder="Phone number" required>                           
-                        </div>
-                    </div>
+                <div class="form-group">
+                  <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
                 </div>
-                <br>
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-8 text-center text-lg-start">
-                        <div class="md-form mb-0">
-                            <textarea type="text" name="message" class="form-control md-textarea" rows="5" placeholder="Message" required></textarea>                       
-                        </div>
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row flex-lg-row flex-column ">
-                    <div class="col-lg-8 text-center text-lg-start">
-                        <button class="btn main-btn" type="submit">Send</button>
-                    </div>
-                </div>
-                
-
-            </form>
+                <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+              </form>
 
             <div class="row flex-lg-row flex-column">
                 <div class="col-lg-8 text-center text-lg-start status"></div>
